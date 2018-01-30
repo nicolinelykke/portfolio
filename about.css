@@ -1,0 +1,139 @@
+body {
+	background-color: #f9f9f9;
+}
+
+nav {
+  overflow: hidden;
+  background: #573B3C;
+  padding-left: 0;
+
+}
+
+ul{
+  overflow: hidden;
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+ul li {
+  float: left;
+}
+
+ul a {
+  margin: 0;
+  line-height: 60px;
+}
+
+ul a:hover {
+  background: rgba(0,0,0, 0.1);
+  opacity: 1;
+}
+
+nav a {
+	font-family: sans-serif;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  float: left;
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 25px;
+}
+
+.logo {
+  width: 150px;
+  height: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+
+
+a {
+	transition: .5s;
+	text-decoration: none;
+}
+
+em {
+	font-style: oblique;
+}
+
+strong {
+	font-weight: bold;
+}
+
+img {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: sans-serif;
+	font-style: normal;
+}
+
+h3, h4 {
+	text-transform: capitalize;
+	font-size: 1.875em;
+	padding: 0 0 1% 0;
+	color: #001833;
+	font-weight: 800;
+}
+
+header {
+	background: linear-gradient(
+  rgba(224, 204, 200, 1.0),
+  rgba(224, 204, 200, 0.90)),
+	url(img/billede.jpg);
+	background-size: cover;
+	background-position: center top;
+	width: 100%;
+}
+
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+  text-align: center;
+	font-family: sans-serif;
+	animation-delay: 2s;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-style: normal;
+  color: #573B3C;
+  text-align: center;
+}
+
+.selfie {
+  width: 700px;
+  height: 550px;
+	text-align: center;
+}
+
+p {
+  line-height: 1.8;
+	color: #616569;
+	letter-spacing: .03em;
+	font-size: 20px;
+	text-align: left;
+}
+
+.col-1 {
+	width: 50%;
+	float: left;
+}
+
+.col-1 img {
+	width: 60%;
+  height: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.col-2 {
+	width: 50%;
+	float: left;
+}
